@@ -1,11 +1,19 @@
 .container {
-  height: 70vh;
+  min-height: 70vh;
   display: flex;
+  margin: 30px auto;
+  width: 90%;
+}
+
+.content {
+  width: 100%;
+  margin-right: 100px;
 }
 
 @media screen and (max-width: 700px) {
   .container {
     flex-direction: column;
-    height: 75vh;
+    min-height: 75vh;
+    width: 95%;
   }
 }

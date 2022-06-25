@@ -11,9 +11,6 @@ const PrivateRoute = () => {
     return <Loading />;
   }
 
-//  const lists = JSON.parse(auth.data);
-//  console.log(lists.products);
-
   return (
     <>
       {auth.status ? (

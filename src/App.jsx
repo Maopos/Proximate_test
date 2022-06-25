@@ -5,6 +5,7 @@ import Footer from "./components/Footer";
 
 import PrivateRoute from "./layouts/PrivateRoute";
 import Products from "./Pages/Products";
+import Product from "./Pages/Product";
 
 import { AuthProvider } from "./context/AuthProvider";
 
@@ -18,6 +19,7 @@ function App() {
 
           <Route path="/private" element={<PrivateRoute />}>
             <Route index element={<Products />} />
+            <Route path="product/:path" element={<Product />} />
           </Route>
         </Routes>
         <Footer />
