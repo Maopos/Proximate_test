@@ -75,7 +75,7 @@ const Home = () => {
       <h3 className={styles.title2}>
         Use your credentials to <span className={styles.span}>Login.</span>
       </h3>
-      1075258635 testProximate
+      {/* 1075258635 testProximate */}
       <div className={styles.card}>
         <form onSubmit={handleSubmit}>
           <div>
