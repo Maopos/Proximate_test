@@ -1,0 +1,83 @@
+.container {
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.title{
+    font-size: 3rem;
+    font-weight: 400;
+    color: var(--primary);
+}
+
+.title2 {
+  color: var(--secundary);
+  font-weight: 200;
+}
+
+.span {
+  color: var(--third);
+  font-size: 3rem;
+  font-weight: 300;
+}
+
+.card {
+  width: 500px;
+  background: var(--card);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+  color: var(--secundary);
+  border-radius: 5px;
+  box-shadow: 2px 2px 10px rgb(233, 233, 233);
+}
+
+.input {
+  width: 100%;
+  border: none;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 10px rgb(246, 246, 246);
+}
+
+.button {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: none;
+  background: var(--third);
+  color: var(--font-color);
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 1rem;
+  font-weight: 200;
+  cursor: pointer;
+  box-shadow: 2px 2px 10px rgb(246, 246, 246);
+  transition: 0.1s ease all;
+}
+
+.button:active {
+  position: relative;
+  top: 1.5px;
+}
+
+.button:hover {
+  background: var(--third-light);
+}
+
+@media screen and (max-width: 700px) {
+  .container {
+    height: 75vh;
+    justify-content: start;
+    margin-top: 50px;
+  }
+
+  .card {
+    width: 90%;
+  }
+}

@@ -1,0 +1,27 @@
+.redAlert {
+  background: none;
+  border: 1px solid red;
+  color: red;
+}
+
+.blueAlert {
+  background: none;
+  border: 1px solid var(--secundary);
+  color: var(--secundary);
+}
+
+.redAlert,
+.blueAlert {
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px #ccc;
+  width: 500px;
+}
+
+@media screen and (max-width: 700px) {
+  .redAlert,
+  .blueAlert {
+    width: 90%;
+  }
+}

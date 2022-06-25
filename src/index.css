@@ -1,0 +1,29 @@
+:root {
+  --primary: #18314f;
+  --secundary: #384e77;
+  --secundary-dark: #007533;
+  --secundary-light: #00c153;
+
+  --third: #339989;
+  --third-light: #3bb09e;
+  --font-color: #fcfff7;
+
+  --card: #ebf3ff;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
